@@ -5,8 +5,8 @@
 using namespace std;
 
 int main(){
-    vector<int> v = {5,4,3,2,1};
-    Quick obj;
+    vector<int> v = {1,5,2,4,3};
+    Quick obj = Quick(true);
     obj.quickSort(v);
     for(int &i : v)
         cout<<i<<" ";

@@ -25,8 +25,13 @@ void Quick::quickSort(std::vector<int> &v)
 void Quick::sorter(int start, int end)
 {
     if(start < end){
+
+        if(Quick::randomizer)
+            Quick::randomSwap(start, end);
+
         int temp = start;
         int value = Quick::v[temp];
+
         for(int i = start+1 ; i <= end ; ++i){
             if( Quick::v[i] <= value)
                 std::swap(Quick::v[i] , Quick::v[temp++]);
@@ -36,6 +41,11 @@ void Quick::sorter(int start, int end)
     }
 }
 
+void Quick::randomSwap(int start, int end){
+    int range = end - start;
+    int rad = start + rand() % (range);
+    std::swap(Quick::v[end], Quick::v[rad] );
+}
 
 
 
