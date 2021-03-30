@@ -1,0 +1,20 @@
+Sort ALgo
+1.) compile object file for algorithm.cpp
+2.) compile object file for main.cpp
+3.) link all the compiled files and run the main 
+
+Heap Sort
+g++ -c algos/heapSort.cpp -o objects/heapSort.o
+g++ -c main.cpp -o objects/main.o
+g++ objects/heapSort.o objects/main.o -o objects/main && ./objects/main
+
+
+Merge Sort
+g++ -c algos/mergeSort.cpp -o objects/mergeSort.o
+g++ -c main.cpp -o objects/main.o
+g++ objects/mergeSort.o objects/main.o -o objects/main && ./objects/main
+
+Insertion Sort
+g++ -c algos/insertionSort.cpp -o objects/insertionSort.o
+g++ -c main.cpp -o objects/main.o
+g++ objects/insertionSort.o objects/main.o -o objects/main && ./objects/main

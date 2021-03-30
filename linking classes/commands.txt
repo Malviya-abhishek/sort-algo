@@ -1,0 +1,4 @@
+g++ -c myClass.cpp -o myClass.o
+g++ -c main.cpp -o main.o
+g++ myClass.o main.o -o main
+./main
