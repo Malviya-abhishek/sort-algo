@@ -41,5 +41,13 @@ public:
 class Quick
 {
 private:
+int n;
+bool randomizer;
+std::vector<int> v;
 public:
+    Quick();
+    Quick( bool );
+    void quickSort(std::vector<int> &);
+    void sorter(int , int );
+    void randomSwap(int , int );
 };

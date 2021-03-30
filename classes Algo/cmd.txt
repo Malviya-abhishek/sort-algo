@@ -18,3 +18,8 @@ Insertion Sort
 g++ -c algos/insertionSort.cpp -o objects/insertionSort.o
 g++ -c main.cpp -o objects/main.o
 g++ objects/insertionSort.o objects/main.o -o objects/main && ./objects/main
+
+Quick Sort
+g++ -c algos/quickSort.cpp -o objects/quickSort.o
+g++ -c main.cpp -o objects/main.o
+g++ objects/quickSort.o objects/main.o -o objects/main && ./objects/main

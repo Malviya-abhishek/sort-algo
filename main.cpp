@@ -11,8 +11,18 @@ int main(){
     freopen("output.txt","w",stdout);
     #endif
     
-    string x = "asd";
-    cout<<"x";
+    vector<int> v = {4,5,1,8,2,9,2,3,4};
+    int temp = 0;
+    int value = v[temp];
+    for(int i = 1 ; i < v.size() ; ++i){
+        if(v[i] <= value){
+            swap(v[i], v[temp]);
+            temp++;
+        }
+    }
+
+    for(int i : v)
+        cout<<i<<" ";
 
 
 
