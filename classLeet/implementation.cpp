@@ -63,17 +63,17 @@ std::vector<std::vector<int> > Leet::read2D( std::string str )
     return ans;
 }
 
-template<typename T>
-void Leet::print1D( std::vector<T> &arr ){
-    for(T &i : arr)
-        std::cout<<i<<" ";
-}
+// template<typename T>
+// void Leet::print1D( std::vector<T> &arr ){
+//     for(T &i : arr)
+//         std::cout<<i<<" ";
+// }
 
-template<typename T>
-void print2D( std::vector< std::vector<T> > & arr ){
-    for( std::vector<T> & i : arr ){
-        for( T &j : i )
-            std::cout<<j<<" ";
-        std::cout<<std::endl;
-    }
- }
+// template<typename T>
+// void print2D( std::vector< std::vector<T> > & arr ){
+//     for( std::vector<T> & i : arr ){
+//         for( T &j : i )
+//             std::cout<<j<<" ";
+//         std::cout<<std::endl;
+//     }
+//  }

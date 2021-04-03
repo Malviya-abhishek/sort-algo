@@ -8,7 +8,3 @@ g++ Leet.o main.o -o main
 Or we can type after creating Leet.o file
 
 g++ -c main.cpp -o main.o && g++ Leet.o main.o -o main && ./main
-
-
-
-
