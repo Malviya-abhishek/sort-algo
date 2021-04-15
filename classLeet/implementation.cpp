@@ -64,13 +64,13 @@ std::vector<std::vector<int> > Leet::read2D( std::string str )
 }
 
 // template<typename T>
-// void Leet::print1D( std::vector<T> &arr ){
+// void Leet::print1D( std::vector<T> arr ){
 //     for(T &i : arr)
 //         std::cout<<i<<" ";
 // }
 
 // template<typename T>
-// void print2D( std::vector< std::vector<T> > & arr ){
+// void print2D( std::vector< std::vector<T> >  arr ){
 //     for( std::vector<T> & i : arr ){
 //         for( T &j : i )
 //             std::cout<<j<<" ";

@@ -1,12 +1,15 @@
 #include <bits/stdc++.h>
-#include "./classLeet/leet.h"
-
 using namespace std;
 
-// vector<int> findRedundantConnection(vector<vector<int>>& edges) {
-        
-// }
+inline int __lcm(int x, int y){
+    return ( x / __gcd(x,y) ) * y;
+}
 
+inline int gcd(int x, int y){
+    if(y == 0)
+        return x;
+    return gcd(y, x%y);
+}
 
 int main(){
     ios::sync_with_stdio(false);
@@ -15,24 +18,14 @@ int main(){
     freopen("input.txt","r",stdin);
     freopen("output.txt","w",stdout);
     #endif
+    
+    int x = 100;
+    int y = 65;
 
-    Leet leet;
+    cout<< ( __gcd(0, x) ) ;
 
-    string s1 = "[1,2,3,4,5]";
-
-    vector<int> v1 = leet.read1D(s1);
-
-    // for(int i : v1)
-    //     cout<<i<<" ";
-    // cout<<endl;
-
-    leet.print1D< int >(v1);
-
-    // cout<<leet.fun<int>(5,10)<<endl;
-    // cout<<leet.fun<char>('q','p')<<endl;
 
     
 
-    
     return 0;
 }

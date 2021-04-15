@@ -16,14 +16,14 @@ public:
 
     //  fix it later
     template <typename T>
-    void print1D( std::vector< T > & arr  )
+    void print1D( std::vector< T >  arr  )
     {
         for(T &i : arr)
             std::cout<<i<<" ";
     }
 
     template <typename T>
-    void print2D( std::vector< std::vector<T> > & arr )
+    void print2D( std::vector< std::vector<T> >  arr )
     {
         for( std::vector<T> & i : arr ){
             for( T &j : i )
